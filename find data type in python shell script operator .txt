@@ -1,0 +1,79 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 5**2
+25
+>>> 5//3
+1
+>>> 10%3
+1
+>>> -13+5
+-8
+>>> 1//2
+0
+>>> #nnn
+>>> #comparison
+>>> 2==2
+True
+>>> 2!=3
+True
+>>> 5<3
+False
+>>> 4>8
+False
+>>> 5>=3
+True
+>>> 4<=3
+False
+>>> #Assignment
+>>> a = 5
+>>> a
+5
+>>> 
+>>> a+=2
+>>> a
+7
+>>> a-=3
+>>> a
+4
+>>> a8=4
+>>> a/=5
+>>> a
+0.8
+>>> a*=4
+>>> a
+3.2
+>>> 
+>>> #logical
+>>> 2==2 and 3==4
+False
+>>> 2==2 and 4==4
+True
+>>> 2==2 or 3==5
+True
+>>> !3==5
+SyntaxError: invalid syntax
+>>> not 2 ==5
+True
+>>> #membership
+>>> a=india
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    a=india
+NameError: name 'india' is not defined
+>>> a='india'
+>>> b='in'
+>>> a in b
+False
+>>> b in a
+True
+>>> a='india'
+>>> b=12
+>>> a is b
+False
+>>> b is a
+False
+>>> a is not b
+True
+>>> b is not a
+True
+>>> 

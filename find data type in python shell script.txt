@@ -1,0 +1,90 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+============ RESTART: D:/programming/python + oop/arithmeticprobs.py ===========
+50
+>>> a=
+SyntaxError: invalid syntax
+>>> 
+>>> a=1
+>>> type(a)
+<class 'int'>
+>>> b=3.1416
+>>> type(b)
+<class 'float'>
+>>> c=hello
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    c=hello
+NameError: name 'hello' is not defined
+>>> c="hello"
+>>> type(c)
+<class 'str'>
+>>> d=true
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    d=true
+NameError: name 'true' is not defined
+>>> d=True
+>>> type(d)
+<class 'bool'>
+>>> a = input()
+3
+>>> a
+'3'
+>>> m=10
+>>> n=50
+>>> m= input()
+10
+>>> n=input()
+50
+>>> m*n
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    m*n
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> a=5
+>>> type(a)
+<class 'int'>
+>>> a=str(a)
+>>> type (a)
+<class 'str'>
+>>> a=90
+>>> a=input()
+10
+>>> a=int(a)
+>>> b=input()
+5
+>>> b=int(b)
+>>> a*b
+50
+>>> print(a-b)
+5
+>>> 
+====================================== RESTART: D:/programming/python + oop/arithmeticprobs.py ======================================
+50
+20
+8
+Traceback (most recent call last):
+  File "D:/programming/python + oop/arithmeticprobs.py", line 15, in <module>
+    d=a*b
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 
+====================================== RESTART: D:/programming/python + oop/arithmeticprobs.py ======================================
+50
+4
+6
+24
+>>> g , h = input().split()
+5
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    g , h = input().split()
+ValueError: not enough values to unpack (expected 2, got 1)
+>>> g,h=input().split()
+5 7
+>>> g
+'5'
+>>> h
+'7'
+>>> 

@@ -1,0 +1,64 @@
+change custom rom in xiaomi.txt
+backup mi cloud
+enable developer option 
+enable usb debbugging
+link mi account to mi unlock status
+enable OEM unlocking
+now turn off the device 
+
+#step 2
+put the phone into recovery mode by ,:- holding the power button and volume down button (hold these together) untill miui mas-cot pos up on the screen .
+now plug it with a computer via usb cable 
+open this link via chrome : en.miui.com/unlock/download_en.html
+download the miui unlock tool 
+apply white to unlock on my account (needs 7 day tp approve)
+open the tool
+log in with same account 
+plug in device , when connected it will change icon 
+press unlock button 
+wait to process complete 100%
+it will erase all data 
+now keep your device turn off
+and preferably in fastboot mode (fastboot mode a off kore rakha)
+
+#step 3
+
+setup android debug bridge (it allow few more control in fastboot mode)
+#adb:  https://www.xda-developers.com/install-adb-windows-macos-linux/
+unzip the adb file 
+file gula c drive a giye adb folder a rakha lagbe . /this pc/c/adb
+now dload , twrp : https://androidfilehost.com/?w=files&flid=50678
+ dload the relevent one according to device 
+ ex : mi 8 er jonno twrp_dipper.img
+ move twrp file to the adb folder 
+ once this done , open powershell in adb folder 
+ type in shell :
+ ./fastboot.exe flash recovery twwrp.img
+ press enter
+ now type:
+ ./fastboot.exe boot twrp.img
+ press enter
+ phone will be boot on : 
+ tap settings icon and select english
+ now dload the custom rom as wish 
+ goto this link: https://xiaomi.eu/community/forums/miui-rom-releases.103/
+ or miui 12dload directly goto : https://xiaomi.eu/community/threads/20-5-14.55760/ 
+dload from weekly grp or any stable , example : https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.5.13/
+dload the zip file and 
+copy and paste zip file in twrp folder in phone 
+next in phone press install button 
+open twrp folder ,select or open file 
+click install button or ok sign or swiper 3 time (as asked)
+press the , wipe cache button
+before boot goto back to settings and 
+select wipe
+swipe as accept , or press ok 
+then press reboot the system 
+
+
+#done enjoy 
+https://www.youtube.com/watch?v=p_RmZGQ-l2M
+https://www.youtube.com/watch?v=Bf44z8xbKH4
+https://www.youtube.com/watch?v=bGx-tcjqYfc&t=38s
+https://www.youtube.com/watch?v=HEqSOBRdRMk&t=577s
+https://www.youtube.com/watch?v=2IFhekEiv9U&t=589s
